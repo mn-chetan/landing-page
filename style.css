@@ -163,3 +163,12 @@ ul,
   border-radius: 12px;
   width: 100px;
 }
+
+.footer {
+  background-color: #1f2937;
+  margin-top: 75px;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 36px;
+}
