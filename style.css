@@ -30,6 +30,7 @@
   padding: 18px 200px 96px;
   font-family: Roboto, sans-serif;
   background-color: #1f2937;
+  height: 480px;
 }
 
 .header .main .text {
@@ -67,4 +68,43 @@ ul,
   width: 100px;
   background-color: hsl(240, 100%, 50%);
   border-radius: 8px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border: 4px solid blue;
+  border-radius: 12px;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.all-cards p {
+  width: 150px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subsection-one {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.subsection-one h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 36px;
 }
