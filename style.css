@@ -108,3 +108,27 @@ ul,
   text-align: center;
   margin-top: 36px;
 }
+
+.quote-section {
+  font-size: 36px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 96px 48px 48px 24px;
+}
+
+.quote {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-section strong {
+  align-self: flex-end;
+}
+
+.quote-section p {
+  font-style: italic;
+  font-weight: 100;
+}
