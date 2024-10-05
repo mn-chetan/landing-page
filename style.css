@@ -52,7 +52,8 @@ ul {
 
 .header .main .text p,
 ul,
-.placeholder {
+.placeholder,
+.header .main .text button {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -60,4 +61,10 @@ ul,
 .header-logo {
   color: #f9faf8;
   font-size: 24px;
+}
+
+.header .main .text button {
+  width: 100px;
+  background-color: hsl(240, 100%, 50%);
+  border-radius: 8px;
 }
