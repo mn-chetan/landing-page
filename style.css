@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 .placeholder {
@@ -28,7 +29,6 @@
 
 .header {
   padding: 18px 200px 96px;
-  font-family: Roboto, sans-serif;
   background-color: #1f2937;
   height: 480px;
 }
@@ -131,4 +131,35 @@ ul,
 .quote-section p {
   font-style: italic;
   font-weight: 100;
+}
+
+.subsection-two {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-section {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 75px;
+  border-radius: 12px;
+}
+
+.sign-up-section button,
+.sign-up-section {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.subsection-two .text-two {
+  font-weight: 100;
+}
+
+.sign-up-section button {
+  border-radius: 12px;
+  width: 100px;
 }
